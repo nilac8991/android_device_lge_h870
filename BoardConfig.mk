@@ -24,8 +24,5 @@ TARGET_OTA_ASSERT_DEVICE := g6,lucye,h870
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_h870_defconfig
 
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
 # inherit from the proprietary version
 -include vendor/lge/h870/BoardConfigVendor.mk
